@@ -1,0 +1,17 @@
+{
+  "contracts": {
+    "Coin": "fd5ae10087ffbb915f56df81e3019923eba0b482",
+    "ExCoin": "0712f4664ae303df6b95a4138803633f17a72dec",
+    "OpenZeppelin/openzeppelin-contracts@4.9.0/ERC20": "5d7c53ac75579876ffbfb61e35f275d9402a5cc6"
+  },
+  "tests": {
+    "tests/test_coin.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "...............",
+      "sha1": "863dacecaf0020d1ef1d138fcf98fcf1f713a3b8",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}

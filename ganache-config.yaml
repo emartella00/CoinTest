@@ -1,0 +1,6 @@
+networks:
+  development-ganache:
+    host: http://localhost:7545
+    chainid: 1337
+    gas_limit: max
+    gas_price: 0
