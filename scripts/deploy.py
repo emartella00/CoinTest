@@ -113,7 +113,6 @@ def test3():
     bl = accounts[1].balance()
 
     while True: #eseguo degli swap in un ciclo infinito
-        if accounts[1].balance() >= 1e18:
             try:
                 tx2 = univ2_router_contract.swapExactETHForTokens(100000e6, path, accounts[1], chain.time() + 900000,
                                                                   {'from': accounts[1], 'value': 100e18})
