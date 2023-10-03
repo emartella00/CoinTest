@@ -130,7 +130,7 @@ def test3():
     p3 = pool_contract.getReserves()
 
     pool_contract.approve(univ2_router_contract, 999e20, {'from': accounts[0]})
-    tx3 = univ2_router_contract.removeLiquidity(weth_add,usdt_add,1e6,0,0,accounts[0],chain.time()+900000, {'from': accounts[0]}) #rimuovo liquidità e controllo le variazioni
+    tx3 = univ2_router_contract.removeLiquidity(weth_add,usdt_add,100e6,0,0,accounts[0],chain.time()+900000, {'from': accounts[0]}) #rimuovo liquidità e controllo le variazioni
 
     p4 = pool_contract.getReserves()
 
